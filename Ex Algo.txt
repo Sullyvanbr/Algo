@@ -1,0 +1,22 @@
+
+Exercice 1 :
+Créer une variable année de naissance
+Créer une variable de l'année actuelle 
+Demander l'année de naissance
+Age
+Calcule de l'âge 
+Afficher le résultat
+
+Exercice 2 :
+Créer une variable du prénom
+Créer une variable de l'âge
+Créer une variable du statut de connexion
+Demander le prénom
+Demander l'âge
+Demander le statut de connexion
+Afficher un message avec toutes les informations
+
+Exercice 3 : 
+Créer une variable A d'une valeur de 1
+Créer une variable B d'une valeur de 2
+Echanger les deux valeurs de A et B
