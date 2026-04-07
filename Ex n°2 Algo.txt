@@ -1,0 +1,44 @@
+Exercice 1 :
+Créer la variable Age
+Demander Age 
+Si Age=>18
+Print='Tu es majeur'
+Sinon Print='Tu es mineur'
+
+Exercice 2 :
+Créer une variable MDP
+Demander le MDP
+Si MDP is true
+Afficher succès 
+Else Print 'erreur'
+Demander 12 caractères pour le MDP
+Sinon afficher message erreur
+
+Exercice 3 :
+Créer variable Note
+Demander la Note
+Si la Note est => à 10 
+Alors afficher 'Admis'
+Sinon 
+Afficher 'Refusé'
+Si la Note est à 13
+Alors afficher 'Passable'
+Si la Note est à 15 
+Alors afficher 'Bien'
+Si la Note est à 17
+Alors afficher 'Très bien'
+
+Exercice 4 :
+Créer variable Couleur de feu
+Créer variable Rouge 
+Créer variable Orange 
+Créer variable Vert
+Rouge <- 'Stop'
+Orange <- 'Ralentir'
+Vert <- 'Avancer'
+Si Couleur de feu est Rouge 
+Afficher la valeur de Rouge
+Si Couleur de feu est orange
+Afficher la valeur de Orange
+Si Couleur de feu est Vert
+Afficher la valeur de Vert

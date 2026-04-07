@@ -7,6 +7,17 @@ Age
 Calcule de l'âge 
 Afficher le résultat
 
+Soluce 1 :
+Créer variable Naissance
+Demander l'année de naissance
+Nissance <-- année de naissance entrée
+Créer variable Actuelle
+Demander l'année actuelle
+Actuelle <-- année actuelle entrée
+Créer vairable Resultat
+Resultat <-- Actuelle - Naissance
+Afficher 'Vous avez :' + Resultat + 'ans.'
+
 Exercice 2 :
 Créer une variable du prénom
 Créer une variable de l'âge
@@ -16,7 +27,29 @@ Demander l'âge
 Demander le statut de connexion
 Afficher un message avec toutes les informations
 
+Soluce 2 :
+Créer une variable Prenom
+Demander le prenom
+Prenom <- prénom entrée
+Créer une variable Age 
+Demander un âge
+Age <- âge entrée
+Créer une variable Status
+Demander le status de connexion
+Status <- status de connexion entrée
+Afficher 'Prénom : ' + Prenom + ' - Age : ' + Age + ' - ' + Status
+
 Exercice 3 : 
 Créer une variable A d'une valeur de 1
 Créer une variable B d'une valeur de 2
 Echanger les deux valeurs de A et B
+
+Soluce 3 :
+Créer une variable ValeurOne
+Créer une variable ValeurTwo
+ValeurOne <- 'Chat'
+ValeurTwo <- 'Chien'
+Créer une troisième variable Temporaire
+Temporaire <- ValeurOne 
+ValeurOne <- ValeurTwo
+ValeurTwo <- Temporaire
