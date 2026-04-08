@@ -1,0 +1,28 @@
+Exercice 1 :
+Pour i dans 1 à 20
+     Si i % 2 == 0
+     Print i
+Fin pour
+
+
+Exercice 2 :
+i = 0
+Tant que i <= 10
+     Afficher i + 1
+Fin tant que
+
+Compteur <- <=10
+Pour Compteur de 0 à 10
+     Print (Compteur)
+Fin pour 
+
+Exercice 3 :
+i = Nombre d'essai
+Tant que i <= 3
+     Afficher i
+Fin tant que
+
+
+Exercice 4 :
+Print 'Ecrivez un nombre'
+Pour 
