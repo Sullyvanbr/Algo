@@ -1,0 +1,27 @@
+Exercice 1 :
+Tableau = [1, 2, 3]
+POUR i de 0 à TAILLE de Tableau -1
+    AFFICHER index i de Tableau
+FIN POUR
+
+Exercice 2 :
+Notes = [10, 11, 12]
+POUR i de 0 à TAILLE de Notes -1
+    CALCULER Somme des notes
+    CALCULER Moyenne des notes
+    AFFICHER Résultat 
+FIN POUR
+
+Exercice 3 :
+Nombres = [1, 2, 3]
+POUR i de 0 à TAILLE de Nombres -1
+    AFFICHER Valeur maximale
+    AFFICHER Valeur minimale
+FIN POUR
+
+Exercice 4 :
+Tableau = ["Bob", "Palace", "Livre"]
+POUR i de 0 à TAILLE de Tableau -1
+    CALCULER TAILLE de Tableau
+    AFFICHER Somme de TAILLE de Tableau
+FIN POUR
