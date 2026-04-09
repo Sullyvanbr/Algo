@@ -4,6 +4,12 @@ POUR i de 0 à TAILLE de Tableau -1
     AFFICHER index i de Tableau
 FIN POUR
 
+Soluce 1 : 
+tableau = ["Alice", "Bob", "Charlie"]
+FOR i de 0 à length(tableau) -1
+    PRINT Tableau[i]
+END FOR
+
 Exercice 2 :
 Notes = [10, 11, 12]
 POUR i de 0 à TAILLE de Notes -1
@@ -12,6 +18,15 @@ POUR i de 0 à TAILLE de Notes -1
     AFFICHER Résultat 
 FIN POUR
 
+Soluce 2 : 
+notes = [12, 15, 8, 19]
+somme = 0
+FOR i de 0 à length(notes) -1
+    somme = somme + notes[i]
+END FOR
+moyenne = somme / length(notes)
+PRINT moyenne
+
 Exercice 3 :
 Nombres = [1, 2, 3]
 POUR i de 0 à TAILLE de Nombres -1
@@ -19,9 +34,26 @@ POUR i de 0 à TAILLE de Nombres -1
     AFFICHER Valeur minimale
 FIN POUR
 
+Soluce 3 :
+nombres = [4, 12, 7, 19, 2]
+max = nombres[0]
+min = nombres[0]
+FOR i de 1 à length(nombres) -1
+    IF nombres[i] > max
+        max = nombres[i]
+    END IF
+    IF nombres[i] < min
+        min = nombres[i]
+    END IF
+END FOR
+PRINT max
+PRINT min
+
 Exercice 4 :
 Tableau = ["Bob", "Palace", "Livre"]
 POUR i de 0 à TAILLE de Tableau -1
     CALCULER TAILLE de Tableau
     AFFICHER Somme de TAILLE de Tableau
 FIN POUR
+
+Soluce 4 :

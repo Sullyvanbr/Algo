@@ -1,0 +1,33 @@
+Exercice 1 :
+SOUS-ALGORITHME CalculerTVA(prixHT, tauxTVA)
+    TVA = prixHT * tauxTVA
+    RETOURNER TVA
+FIN 
+
+prixHT = Valeur demandé
+taux de TVA = Valeur demandé
+prixTTC = prixHT * TVA / 100
+AFFICHER prixTTC
+
+
+Ecercice 2 :
+SOUS-ALGORITHME calculermoyenne(note1, note2, note3)
+    Moyenne = Somme / calculermoyenne    
+    DEMANDER moyenne
+    RETOURNER calculermoyenne(attributionmention)
+    SI moyenne >= 16 : "Très bien"
+    SI moyenne >= 14 : "Bien"
+    SI moyenne >= 12 : "Assez bien"
+    SI moyenne >= 10 : "Passable"
+    SI moyenne < 10 : "Insuffisant"
+    FIN SI
+
+AFFICHER moyenne
+FIN
+
+DEMANDER calculermoyenne(note1, note2, note3)
+    POUR i de 1 à calculermoyenne.length -1
+    Somme = somme + calculermoyenne[i]
+    FIN POUR
+    Moyenne = Somme / calculermoyenne
+    AFFICHER moyenne et mention
