@@ -10,8 +10,8 @@ Exercice 2 :
 notes <- [10, 12, 14]
 somme <- 0
 
-POUR calculersomme
-    somme <- total de notes
+POUR chaque note dans notes
+    somme <- somme + notes
 FIN POUR 
 
 moyenne <- somme / 3
@@ -29,10 +29,14 @@ Exercice 4 :
 notes <- [10, 15, 20]
 somme <- 0
 
-POUR chaque note dans notes
-    somme <- total de notes
-FIN POUR
-
-moyenne <- somme / nombre d'éléments de notes
-AFFICHER moyenne
-TWROW "Message d'erreur"
+SI taille de notes >= 1
+    POUR chaque note dans notes
+        SI note est un nombre
+            somme <- somme + notes
+        FIN SI
+    FIN POUR
+    moyenne <- somme / nombre d'éléments de notes
+    AFFICHER moyenne
+SINON
+    AFFICHER 'ERREUR : Aucune note à traiter'
+FIN SI
