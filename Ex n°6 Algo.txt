@@ -1,0 +1,38 @@
+Exercice 1 :
+age <- 16
+SI age >= 18
+    AFFICHER "Majeur"
+SINON
+    AFFICHER "Mineur"
+FIN SI
+
+Exercice 2 :
+notes <- [10, 12, 14]
+somme <- 0
+
+POUR calculersomme
+    somme <- total de notes
+FIN POUR 
+
+moyenne <- somme / 3
+AFFICHER moyenne
+
+Exercice 3 :
+note <- 8
+SI note >= 10
+    AFFICHER "Admis"
+SINON 
+    AFFICHER "Non admis"
+FIN SI
+
+Exercice 4 :
+notes <- [10, 15, 20]
+somme <- 0
+
+POUR chaque note dans notes
+    somme <- total de notes
+FIN POUR
+
+moyenne <- somme / nombre d'éléments de notes
+AFFICHER moyenne
+TWROW "Message d'erreur"
