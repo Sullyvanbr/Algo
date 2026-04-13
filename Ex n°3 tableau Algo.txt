@@ -1,0 +1,31 @@
+Exercice 3 : Chercher dans une grille
+Consigne :
+Créer un tableau 4×4 de nombres.
+Chercher si un nombre spécifique existe dans la grille
+Si oui, afficher sa position (ligne, colonne)
+Si non, afficher "Nombre non trouvé"
+
+FONCTION rechercherNombre(tableau, valeur)
+    POUR i de 0 à nombreDeLignes(tableau) -1
+	POUR j de 0 à nombreDeColonnes(tableau[i]) -1
+	    SI tableau[i][j] = valeur
+		AFFICHER 'Trouvé à la ligne ' + i + ', colonne ' + j
+		RETOURNER vrai
+	    FIN SI
+	FIN POUR 
+    FIN POUR
+    AFFICHER 'Nombre non trouvé'
+    RETOURNER faux
+FIN FONCTION
+
+nombres[
+    [1, 2, 3, 4]
+    [5, 6, 7, 8]
+    [9, 10, 11, 12]
+    [13, 14, 15, 16]
+]
+
+DEMANDER le nombre de l'utilisateur
+nombreRechercher <- le nombre entré par l'utilisateur
+CHERCHER dans rechercherNombre
+    

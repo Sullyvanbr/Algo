@@ -1,0 +1,30 @@
+Exercice 1 : Afficher une grille de morpion
+Créer un tableau 3×3 représentant une grille de morpion.
+Initialiser la grille avec des espaces vides (" ")
+Placer quelques coups (X et O)
+Afficher la grille de manière lisible
+
+morpion <- [
+    ["X", "O", " "],
+    [" ", "X", "O"],
+    ["O", " ", "X"]
+]
+POUR i de 0 à 2
+    POUR j de 0 à 2
+	AFFICHER morpion[i][j] + " "
+    FIN POUR
+    AFFICHER " "
+FIN POUR 
+
+
+EST CE QU'ON AURAIT PU FAIRE JUSTE CA ?
+
+morpion <- [
+    ["X", "O", " "],
+    [" ", "X", "O"],
+    ["O", " ", "X"]
+]
+
+AFFICHER morpion[1]
+AFFICHER morpion[2]
+AFFICHER morpion[3]

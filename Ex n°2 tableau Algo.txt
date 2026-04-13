@@ -1,0 +1,45 @@
+Exercice 2 : Notes de plusieurs classes
+Créer un tableau représentant les notes de 3 classes avec 5 élèves chacune.
+Calculer la moyenne d'une classe spécifique
+Calculer la moyenne générale de toutes les classes
+
+
+FONCTION sommerLigne(tableau, Classes)
+    somme <- 0
+    POUR j de 0 à nombreDeColonnes(tableau[Classes]) -1
+	somme <- somme + tableau[Classes][j] / nombre de notes d'une ligne
+    FIN POUR
+    RETOURNER somme
+FIN FONCTION
+
+FONCTION sommerTableau(tableau, Classes, Elèves)
+    somme <- 0
+    POUR j de 0 à nombreDeColonnes(tableau[Classes]) -1
+	somme <- somme + tableau[Classes][j] / nombre de notes de chaque colonne
+	POUR i de 0 à nombreDeLignes(tableau[Elèves]) -1
+	    somme <- somme + tableau[Elèves][i] / nombre de notes de chaque ligne
+	FIN POUR
+    FIN POUR
+    RETOURNER sommeTotal
+FIN FONCTION
+
+notes <- [
+    [10, 12, 15, 18, 8]
+    [8, 11, 10, 14, 17]
+    [2, 5, 18, 20, 14]
+]
+ClasseA <- notes[0] -> [10, 12, 15, 18, 8]
+ClasseB <- notes[1] -> [8, 11, 10, 14, 17]
+ClasseC <- notes[2] -> [2, 5, 18, 20, 14]
+
+POUR chaque ligne 
+    AFFICHER somme de sommerLigne(tableau, Classes)
+    moyenne de classe <- somme
+FIN POUR
+AFFICHER moyenne de classe  
+
+POUR moyenneTotale
+    AFFICHER somme de sommerTableau(tableau, Classes, Elèves)
+    moyenne des classes <- somme
+FIN POUR
+AFFICHER moyenne des classes 
