@@ -1,0 +1,32 @@
+Exercice 1 : Tri à bulles sur petit tableau
+Soit le tableau : [5, 1, 4, 2, 8]
+Appliquer l'algorithme du tri à bulles manuellement
+Tracer chaque passage complet
+Indiquer tous les échanges effectués
+
+
+1 tour : [5, 1, 4, 2, 8] 
+
+[j] <- 5 [j+1] <- 1
+2 tour : [1, 5, 4, 2, 8] \\Le 5 est > à 1 donc ils échangent
+
+[j] <- 5 [j+1] <- 4
+3 tour : [1, 4, 5, 2, 8] \\Le 5 est > à 4 donc ils échangent
+
+
+[j] <- 5 [j+1] <- 2
+4 tour : [1, 4, 2, 5, 8] \\Le 5 est > à 2 donc ils échangent
+
+[j] <- 5 [j+1] <- 8
+5 tour : [1, 4, 2, 5, 8] \\Le 5 est < à 8 donc ils bougent pas
+
+[j] <- 1 [j+1] <- 4
+6 tour : [1, 4, 2, 5, 8] \\Le 1 est < à 4 donc ils bougent pas
+
+[j] <- 4 [j+1] <- 2
+7 tour : [1, 2, 4, 5 ,8] \\Le 4 est > à 2 donc ils échangent
+
+[j] <- 4 [j+1] <- 5
+8 tour : [1, 2, 4, 5, 8] \\Le 4 est < à 5 donc ils bougent pas
+
+Le tableau est trié
