@@ -1,0 +1,81 @@
+Exercice 3 : Recherche dichotomique guidée Soit le tableau trié :
+ `[2, 5, 8, 12, 16, 23, 38, 45, 56, 67, 78]` 
+1. Écrire l'algorithme de recherche dichotomique complet 
+2. Tracer l'exécution pour rechercher le nombre 23 
+3. Indiquer les valeurs de `debut`, `fin` et `milieu` à chaque étape
+4. Effectuer le traçage pour la recherche du nombre 5
+
+
+FONCTION rechercheDichotomique(tableau, element)
+    debut <- 0
+    fin <- longueur(tableau) - 1
+
+    TANT QUE debut <= fin
+	milieu <- (debut + fin) / 2
+	SI tableau[milieu] = element
+	    RETOURNER milieu
+	SINON SI tableau[milieu] < element
+	    debut <- milieu + 1
+	SINON 
+	    fin <- milieu - 1 
+	FIN SI 
+    FIN TANT QUE
+ 
+    RETOURNER - 1
+FIN FONCTION
+
+tableau <- [2, 5, 8, 12, 16, 23, 38, 45, 56, 67, 78]
+element <- 23
+
+SI element !== null
+    resultat <- rechercheDichotomique(tableau, element)
+    AFFICHER 'nombre trouvé !'
+SINON
+    AFFICHER 'Non trouvé !'
+FIN SI
+
+debut = 0
+fin = 10
+milieu = (0 + 10) / 2 = 5
+tableau[5] = 23
+23 = 23 -> Trouvé !
+RETOURNER 5
+
+Recherche pour le nombre 5
+
+tableau <- [2, 5, 8, 12, 16, 23, 38, 45, 56, 67, 78]
+element <- 5
+
+SI element !== null
+    resultat <- rechercheDichotomique(tableau, element)
+    AFFICHER 'nombre trouvé !'
+SINON
+    AFFICHER 'Non trouvé !'
+FIN SI
+
+1 tour :
+
+debut = 0
+fin = 10
+milieu = (0 + 10) / 2 = 5
+tableau[5] = 23
+23 < 38 -> chercher à gauche
+debut = 4
+
+2 tour :
+
+debut = 0
+fin = 4
+milieu = (0 + 4) / 2 = 2
+tableau[2] = 8
+8 < 12 -> chercher à gauche
+debut = 2
+
+3 tour : 
+
+debut = 0
+fin = 2
+milieu = (0 + 2) / 2 = 1
+tableau[1] = 5 
+5 = 5 -> Trouvé !
+RETOURNER 1
