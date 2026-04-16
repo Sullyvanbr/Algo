@@ -1,0 +1,26 @@
+Exercice 1 : Somme récursive 
+Écrire une fonction récursive `somme(n)` qui calcule la somme de tous les nombres de 1 à n. 
+Exemple : `somme(5) = 1 + 2 + 3 + 4 + 5 = 15`
+
+Questions :*
+Identifier le cas de base
+Identifier le cas récursif
+Écrire l'algorithme complet
+Tracer l'exécution pour n=4
+
+FONCTION sommeRecursive(n)
+    SI n = 0
+	RETOURNER 1
+    FIN SI 
+    
+    RETOURNER sommeRecursive(n-1)
+FIN
+
+
+sommeRecursive <- 4
+
+POUR sommeRecursive(4)
+    AFFICHER sommeRecursive
+FIN POUR
+
+AFFICHER 'somme(4) = 1 + 2 + 3 + 4 = 10'
